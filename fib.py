@@ -5,7 +5,7 @@ n = int(natural_number)
 i = 0
 j = 1
 
-with open("fibonacci.txt", "w") as f
+with open("fibonacci.txt", "w") as f:
     
     f.write("{}\n{}\n".format(i,j))
 
